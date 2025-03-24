@@ -27,7 +27,7 @@ const Header = () => {
           </div>
         </Link> 
         <div className="flex flex-col gap-4 md:flex-col-reverse lg:flex-row lg:gap-8 lg:items-center">
-          <NavPrimary className="" />
+          {/* <NavPrimary className="" /> */}
           <div className="hidden md:flex flex-row gap-2 md:gap-4 justify-end">
             {social.map((item) => (
               <a 

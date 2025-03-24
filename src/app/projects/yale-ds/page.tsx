@@ -11,10 +11,12 @@ import ysImage4 from '@/assets/images/projects/ys-Footer.png'
 import ysImage5 from '@/assets/images/projects/ys-Custom Cards.png'
 import ysImage6 from '@/assets/images/projects/ys-typography.png'
 import YouTubeEmbed from '@/components/ui/youtubeEmbed'
+import Header from "@/components/layout/header";
 
 export default async function Page() {
   return (
     <div>
+      <Header />
       <div className="relative isolate">
         <div className="overflow-hidden">
           <div className="mx-auto max-w-7xl px-6 lg:pb-32 sm:pt-60 lg:px-8 lg:pt-32">
@@ -114,14 +116,6 @@ export default async function Page() {
           </div>
           <Image src={ysImage1} alt="YaleSites homepage" className='object-cover w-full h-full' />
         </div>
-
-        
-        
-          
-        
-      
-
-      
-  </div>
+      </div>
   )
 }

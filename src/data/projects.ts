@@ -14,7 +14,7 @@ export const projects = [
   {
     title: 'All new Yale sites use the design system I established',
     trackingName: 'YaleSites',
-    role: 'Creative Director',
+    role: 'Creative Director, Designer',
     description:
       'Yale has more than a thousand websites, and now, with its first digital design system, it can keep them all on brand.',
     imageSrc: yaleds,
@@ -23,7 +23,7 @@ export const projects = [
   {
     title: 'Wu Tsai Institute design lost a Webby to Spotify',
     trackingName: 'Yale WTI',
-    role: 'Creative Director',
+    role: 'Creative Director, Designer, Front-end Developer',
     description:
     'Connecting neuroscience and data science to accelerate breakthroughs in understanding cognition.',
     imageSrc: wutsai,
@@ -33,7 +33,7 @@ export const projects = [
     title:
       'Emulsify is the go-to design system solution for hundreds of designer and developer teams working on Drupal sites',
     trackingName: 'Emulsify',
-    role: 'Product Lead',
+    role: 'Product Lead, Designer, Front-end Developer, Writer, Marketer',
     description:
       'I guide the strategic vision for the project, ensuring its alignment with the evolving needs of the Drupal community.',
     imageSrc: emulsify,
@@ -42,37 +42,12 @@ export const projects = [
   {
     title: 'Reinventing the public health paradigm with NYU',
     trackingName: 'NYU School of Global Public Health',
-    role: 'Designer',
+    role: 'Designer, Front-end Developer, Content Strategist',
     description:
       'This website redesign revolutionized the digital footprint of the school, capturing its vibrant energy while enhancing the user experience.',
     imageSrc: nyu,
     url: '/projects/nyu',
   },
-  // {
-  //   title: 'Yale Cybersecurity—make boring things exciting',
-  //   role: 'Designer',
-  //   description:
-  //     'Making a department of NO into a department of KNOW. Cybersecurity is cool!',
-  //   imageSrc: cyber,
-  //   url: 'projects/cybersecurity',
-  // },
-  // {
-  //   title:
-  //     'Bits and Mortar ensures that every tabletop game store can deliver files to their customers',
-  //   role: 'Owner, Product Designer, and Developer',
-  //   description:
-  //     'When someone buys a tabletop roleplaying game—like Dungeons and Dragons—from any local game store worldwide, we send them a PDF.',
-  //   imageSrc: bnm,
-  //   url: 'projects/bits-and-mortar',
-  // },
-  // {
-  //   title: 'Design in Good Company podcast',
-  //   role: 'Host',
-  //   description:
-  //     'A podcast about design, leadership, and the power of community.',
-  //   imageSrc: podcast,
-  //   url: 'projects/podcast',
-  // },
 ];
 
 export const smallerProjects = [

@@ -68,15 +68,11 @@ const ProjectCard = ({
 
 const Portfolio = () => {
   return (
-    <div id="portfolio"className="px-4 sm:px-8 md:px-16 py-16 bg-gradient-to-b from-blue-950 to-blue-900 text-blue-100">
+    <div id="work"className="px-4 sm:px-8 md:px-16 py-16 bg-gradient-to-b from-blue-950 to-blue-900 text-blue-100">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-6xl md:text-6xl lg:text-7xl font-medium text-balance mb-16 bg-gradient-to-r from-blue-100 to-blue-200 text-transparent bg-clip-text">
-          Portfolio
+          The Work
         </h2>
-
-        <div className="bg-yellow-500 flex flex-row gap-4 construction-pattern px-8 py-2 mb-16 rounded-lg">
-          <p className='bg-yellow-500 px-8 py-4 rounded-lg text-black font-semibold mx-auto text-xl lg:text-2xl'>I&apos;m in the process of updating my portfolio, so there are some rough edges. Updates daily.</p>
-        </div>
 
         <section className="grid grid-cols-1 lg:grid-cols-2 gap-20 md:gap-16 lg:gap-24 mb-24">
           {projects.map((project) => (
@@ -84,7 +80,7 @@ const Portfolio = () => {
           ))}
         </section>
 
-        <h2 className="text-3xl font-semibold mb-12 bg-gradient-to-r from-blue-100 to-blue-200 text-transparent bg-clip-text">
+        <h2 className="text-3xl font-semibold mb-12 bg-gradient-to-r from-blue-100 to-blue-200 text-transparent bg-clip-text mt-52">
           Hobby projects
         </h2>
         <section className="grid grid-cols-1 lg:grid-cols-3 gap-20 lg:gap-12">
