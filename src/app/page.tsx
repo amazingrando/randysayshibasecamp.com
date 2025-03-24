@@ -15,19 +15,19 @@ import TestimonialsGrid from '@/components/sections/testimonials';
 export default function Home() {
   return (
       <div>
-        <div className="ps-8 lg:ps-16 bg-blue-700 pb-16 text-blue-100">
+        <div className="ps-8 lg:ps-16 bg-blue-700 pb-4 lg:pb-16 text-blue-100">
           <Image src={Framed} alt="Framed" className="w-full h-auto md:max-w-[60%] md:float-end" />
           <h2 className="text-3xl lg:text-6xl leading-none font-medium text-balance max-w-4xl pt-16 lg:pt-64">
             <span className="text-5xl lg:text-8xl mb-4 block">Hi 👋 <br/>Basecamp, <br/></span> I&rsquo;m Randy — a designer, builder, and lifelong maker.
           </h2>
 
-          <main className="mt-16 prose lg:prose-lg prose-headings:font-semibold prose-invert prose-p:text-white pb-16 lg:sticky lg:top-16 self-start max-w-4xl">
+          <main className="mt-16 prose lg:prose-lg prose-headings:font-semibold prose-invert prose-p:text-white pb-16 lg:sticky lg:top-16 self-start max-w-4xl pr-8">
             <p className='lead first-line:uppercase first-line:font-bold'>I&rsquo;ve been making things since I was a teenager in the &lsquo;90s, drawing comic books and selling them to my classmates. I was sure I was going to work in the comics industry. But while studying cartooning at art school, I discovered Photoshop (version four!), and something just clicked. I fell in love with graphic design and shifted gears. Suddenly, I was working with specialty inks, embossing techniques, and interesting folds in print — basically, finding every creative edge I could in physical media.</p> 
             <p className='lead font-semibold'>But not long after, the web caught my eye.</p>
           </main>
         </div>
 
-        <div className='px-8 lg:px-16 py-32 bg-white'>
+        <div className='px-8 lg:px-16 py-16 lg:py-32 bg-white'>
           <div className='grid grid-cols-1 lg:grid-cols-2 gap-16 max-w-6xl mx-auto'>
             <div className="prose lg:prose-lg prose-headings:font-semibold max-w-3xl">
               <p className='first-line:uppercase first-line:font-bold'>The early 2000s were wild. Flash was still everywhere, CSS was getting exciting, and I realized this was the next big medium for creativity. So I jumped in with design and learning to code — HTML, CSS, and enough JavaScript to make things move. I&rsquo;ve always believed you must understand the complete system to design well. I didn&rsquo;t want to hand off ideas in a vacuum — I wanted to bring them to life.
@@ -38,7 +38,7 @@ export default function Home() {
               <p>That&rsquo;s why this role at 37signals is the perfect next step.</p>
               <p>I&rsquo;d bring a strong mix of visual design chops, systems thinking, UX strategy, and front-end know-how to the team. I&rsquo;m comfortable writing production-quality HTML and CSS. I obsess over writing UI copy that makes sense. I run design critiques and ship components. I also love exploring ways to make tools more accessible, inclusive, and adaptable. I&rsquo;d fit right in at 37signals, where the work starts with design and runs deep into how the product functions.</p>
             </div>
-            <div className='h-full max-w-xl flex flex-col items-start justify-start pb-8'>
+            <div className='h-full max-w-xl flex-col items-start justify-start pb-8 hidden lg:flex'>
               <div className='bg-ash-200 pb-16 sticky top-4'>
                 <div className='p-16 pb-8 space-y-4'>
                   <h2 className='text-3xl font-semibold'>Yale design system</h2>
@@ -58,7 +58,7 @@ export default function Home() {
         </div>
         
         
-        <div className='px-8 lg:px-16 py-32 bg-blue-800'>
+        <div className='px-8 lg:px-16 py-16 lg:py-32 bg-blue-800'>
           <div className='max-w-6xl mx-auto'>
             <div className="prose lg:prose-lg prose-headings:font-semibold prose-invert prose-p:text-white max-w-3xl mx-auto font-medium">
               <h2 className=''>So, why am I a designer?</h2>
@@ -101,7 +101,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className='px-8 lg:px-16 py-32 bg-white'>
+        <div className='px-8 lg:px-16 py-16 lg:py-32 bg-white'>
           <div className='max-w-3xl mx-auto space-y-8'>
             <p className='text-3xl text-balance'>So here I am — ready to keep building, keep learning, and hopefully, join you in shaping the next generation of useful, joyful web products. I&rsquo;d love to bring my maker mindset to 37signals and help move the work forward.</p>
             <Image src={signature} alt="Signature" className='w-content h-auto' />
