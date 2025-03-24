@@ -8,8 +8,8 @@ import Fathom from '@/lib/fathom';
 config.autoAddCss = false;
 
 export const metadata: Metadata = {
-  title: "Randy Oest • Designer & storyteller for growing brands",
-  description: "I set the vision, create the structure, and adapt as the story unfolds—whether that's a design system, a website, or an award-winning project.",
+  title: "Hi Basecamp, I’m Randy — a designer, builder, and lifelong maker.",
+  description: "",
 };
 
 export default function RootLayout({
