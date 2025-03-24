@@ -10,6 +10,7 @@ import ys4 from '@/assets/images/portfolio/ys/visitor-mockuuups-transparent-ipho
 import Link from 'next/link';
 import Portfolio from '@/components/sections/portfolio';
 import signature from '@/assets/images/signature.png';
+import TestimonialsGrid from '@/components/sections/testimonials';
 
 export default function Home() {
   return (
@@ -110,6 +111,8 @@ export default function Home() {
           </div>
 
         </div>
+
+        <TestimonialsGrid />
 
         <Portfolio />
       </div>
