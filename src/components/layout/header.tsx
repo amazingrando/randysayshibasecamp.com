@@ -1,4 +1,3 @@
-import { NavPrimary } from "./navPrimary";
 import Randy from '@/assets/images/randy.png'
 import Image from "next/image";
 import Link from "next/link";

@@ -1,6 +1,6 @@
 {
-  "name": "dungeonmaster.design",
-  "version": "0.1.0",
+  "name": "randysayshibasecamp.com",
+  "version": "3",
   "private": true,
   "scripts": {
     "dev": "next dev",
